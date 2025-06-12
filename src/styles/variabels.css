@@ -1,43 +1,15 @@
 :root {
-  /* Основной цвет */
-  --color-primary: #00288b;
-
-  /* Светлее основного (0 — самый светлый, ближе к белому) */
-  --color-primary-light-5: #e0e6f5;
-  --color-primary-light-4: #b3c1eb;
-  --color-primary-light-3: #8098db;
-  --color-primary-light-2: #4d70cc;
-  --color-primary-light-1: #1a47bc;
-
-  /* Тёмнее основного (1 — чуть темнее, 5 — почти чёрный) */
-  --color-primary-dark-1: #002378;
-  --color-primary-dark-2: #001e64;
-  --color-primary-dark-3: #001950;
-  --color-primary-dark-4: #00143c;
-  --color-primary-dark-5: #000f28;
+  --cpl-7: #ccddea83;
+  --cpl-6: #CCDDEA;
+  --cpl-5: #caf0f899;
+  /* --cpl-5: #caf0f83a; */
+  --cpl-4: #90E0EF;
+  --cpl-3: #00B4D8;
+  --cpl-2: #0077B6;
+  --cpl-1: #03045E;
 }
-
 :root {
-  /* Шрифт */
-  --font-main: "Jost", sans-serif;
+  --font-main: "Inter", sans-serif;
 
-  /* Цвет текста и фона по умолчанию */
-  --color-text: #1c1c1c;
-  --color-bg: #ffffff;
-
-  /* Брэйкпоинты (в px) */
-  --breakpoint-xs: 480px;
-  --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-2xl: 1536px;
-
-  /* Контейнеры */
-  --container-xs: 100%;
-  --container-sm: 540px;
-  --container-md: 720px;
-  --container-lg: 960px;
-  --container-xl: 1140px;
-  --container-2xl: 1320px;
+  --color-text: #2c3955;
 }

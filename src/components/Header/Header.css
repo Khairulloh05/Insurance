@@ -1,0 +1,129 @@
+.header-top, .header-top-left, .header-top-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top {
+  padding-block: 12px;
+}
+.header-top-left{
+  gap: 25px;
+  padding: 0 !important;
+}
+.header-top-left button {
+  padding-block: 8px;
+  transition: 0.1s ease;
+}
+.header-top-left button:hover {
+  color: var(--cpl-2);
+}
+.header-top-left, .header-top-right button {
+  padding: 8px;
+  border-radius: 8px;
+}
+.header-top-right {
+  gap: 35px;
+}
+.header-top-right img {
+  width: 37px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.header-top-right img:hover {
+  background-color: var(--cpl-3);
+  color: #fff;
+}
+.header-top-right button:first-of-type{
+  transition: 0.3s ease;
+}
+.header-top-right button:first-of-type:hover {
+  background-color: var(--cpl-3);
+  color: #fff;
+  padding: 8px;
+}
+.header-top-right img:hover {
+  cursor: pointer;
+}
+.account {
+  transition: 0.3s ease;
+  color: #ffffff;
+  background-color: #00B4D8;
+  padding: 8px 20px !important;
+  border-radius: 8px;
+}
+.account2, .header-bottom-right {
+  display: none;
+}
+.account3 {
+  display: none;
+}
+.account:hover {
+  opacity: 0.7;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 53px;
+}
+.header-bottom a {
+  background-color: transparent;
+}
+.header-bottom-center button {
+  margin-inline: 15px;
+  transition: 0.1s ease;
+}
+.header-bottom-center button:hover {
+  margin-inline: 15px;
+  color: var(--cpl-2);
+}
+.header-bottom-left{
+  width: 100px;
+  /* width: 70px; */
+  /* border-radius: 20px; */
+  /* border-radius: 50%; */
+  /* margin-top: 5px; */
+}
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .header-top-right {
+    gap: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .header-top, .header-top-left button, .header-top-right button, .header-bottom-center button {
+    display: none;
+  }
+  .header-bottom {
+    margin-top: 10px;
+  }
+  .header-bottom-right {
+    display: flex;
+    gap: 30px;
+  }
+  .account2, .burger-menu {
+    display: block !important;
+  }
+  .burger-menu {
+    width: 30px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .account2 {
+    display: none !important;
+  }
+  .account3 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
